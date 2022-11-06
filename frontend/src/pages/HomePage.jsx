@@ -15,6 +15,7 @@ const HomePage = () => {
           <p className="position-absolute ps-4 pb-4 pt-3">
             ¿Querés tener tu propio sitio web?
           </p>
+          <img id="rayasMobile" src={rayasMobile} alt="rayasMobile" />
           <img
             id="flechasdown"
             className="position-absolute"
@@ -45,13 +46,13 @@ const HomePageDiv = styled.div`
   #manchatop {
     top: -60px;
     left: 138px;
-    z-index: 0;
+    z-index: 1;
   }
 
   #mancharight {
     right: 0px;
     top: 120px;
-    z-index: 0;
+    z-index: 1;
   }
 `;
 
@@ -62,11 +63,14 @@ const Main = styled.div`
     font-size: 28px;
     font-weight: 900;
     z-index: 3;
-    background-image: url(${rayasMobile});
     width: 55%;
     text-align: center;
     color: black;
     line-height: 32px;
+  }
+
+  #rayasMobile {
+    z-index: 0;
   }
 
   #flechasdown {
