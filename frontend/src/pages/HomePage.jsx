@@ -3,7 +3,7 @@ import manchaTop from "../assets/mancha-top.png";
 import manchaRight from "../assets/mancha-right.png";
 import rayasMobile from "../assets/rayas-mobile.png";
 import flechasDown from "../assets/flechas-down.png";
-import imgLogoMain from "../assets/img-logo-main.png";
+//import imgLogoMain from "../assets/img-logo-main.png";
 import styled from "styled-components";
 
 const HomePage = () => {
