@@ -1,8 +1,11 @@
 import logo from "../assets/logo-cube.png";
 import styled from "styled-components";
 import menuMobile from "../assets/menu-home-mobile.png";
+import { useState } from "react";
+import MenuModal from "../components/MenuModal.jsx";
 
 const Header = () => {
+  const [estadoModal, cambiarEstadoModal] = useState(false);
   return (
     <div className="mt-3 mb-3 ">
       <header className="d-flex justify-content-between">
@@ -16,6 +19,7 @@ const Header = () => {
         <MenuHeaderMobile className="">
           <img src={menuMobile} alt="" />
         </MenuHeaderMobile>
+        <MenuModal estado={estadoModal} cambiarEstado={cambiarEstadoModal} />
       </header>
     </div>
   );

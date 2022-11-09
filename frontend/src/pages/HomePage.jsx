@@ -74,7 +74,7 @@ const Main = styled.div`
   }
 
   #flechasdown {
-    top: 110px;
-    left: 55px;
+    top: 130px;
+    left: 59px;
   }
 `;
