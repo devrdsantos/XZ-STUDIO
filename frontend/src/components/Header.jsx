@@ -17,7 +17,7 @@ const Header = () => {
           </div>
         </Logo>
         <MenuHeaderMobile className="">
-          <img src={menuMobile} alt="" />
+          <img onClick={cambiarEstadoModal} src={menuMobile} alt="" />
         </MenuHeaderMobile>
         <MenuModal estado={estadoModal} cambiarEstado={cambiarEstadoModal} />
       </header>

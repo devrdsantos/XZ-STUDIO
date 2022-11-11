@@ -46,6 +46,7 @@ const ContenedorMenuMobile = styled.div`
   top: 0;
   right: 0;
   background: rgba(0, 0, 0);
+  box-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
 `;
 
 const DivCancel = styled.div`
